@@ -1,6 +1,6 @@
-import CanvasMouse from "./CanvasMouse";
-import CanvasDrag from "./CanvasDrag";
-import CanvasView from "./CanvasView";
+import CanvasMouse from "./lib/CanvasMouse";
+import CanvasDrag from "./lib/CanvasDrag";
+import CanvasView from "./lib/CanvasView";
 
 export default class CanvasZoom {
     w = null;
@@ -85,5 +85,4 @@ export default class CanvasZoom {
             this.update(t, vm);
         })
     }
-
 }
