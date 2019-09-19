@@ -1,11 +1,16 @@
 {
   "name": "zoom-canvas",
   "version": "1.0.0",
-  "description": "",
+  "description": "Easy zoom canvas with vanilla javascript",
   "main": "index.js",
+  "keywords": [
+    "drag",
+    "canvas",
+    "zoom"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm run build"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Ta Quy",
+  "license": "MIT"
 }
